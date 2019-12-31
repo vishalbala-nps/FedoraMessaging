@@ -17,7 +17,9 @@ After Installing the required software, we need to configure fedora-messaging. Y
 We can now start our consumer. Open a terminal and run: `python3 ./consumer.py`
 This will be listening for messages
 
-Once the consumer is up and running, open another terminal and send a message by running: `python3 ./publisher.py HelloWorld!` This command will send the message "HelloWorld!". You can see it in the outputs of consumer.py 
+Once the consumer is up and running, open another terminal and send a message by running: `python3 ./publisher.py HelloWorld!` This command will send the message "HelloWorld!". You can see it in the outputs of consumer.py
+# Further Experiments
+ 1. You can run Publisher, consumer and RabbitMQ server in different machines and it needs changes in config.toml file. More details can be found [here](https://fedora-messaging.readthedocs.io/en/latest/configuration.html)
 # References
  For more info, please refer:
  1. A Simple tutorial I followed: [https://fedora-messaging.readthedocs.io/en/stable/tutorial/index.html](https://fedora-messaging.readthedocs.io/en/stable/tutorial/index.html)
